@@ -56,3 +56,12 @@ NumPy is a fundamental library in the Python scientific computing ecosystem, and
 ```
 
 `nptyping` and `beartype` are used for static typing in python code.
+
+
+### To upgrade for latest versions
+
+```pip
+pip install nptyping beartype --upgrade --force
+```
+
+This will upgrade the `beartype` and `nptyping` forcefully.
