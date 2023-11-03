@@ -26,5 +26,3 @@ These examples showcase the diversity and potential of generative AI in creating
 2. [LABS.GENERATIVEAI - GitHub: Let’s build from here](https://github.com/microsoft/Excel-Labs/blob/main/labs-generative-ai/README.md).
 3. [Generative AI prompt samples | Vertex AI | Google Cloud](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/prompt-samples).
 4. [Google Generative AI – Google AI](https://ai.google/discover/generativeai).
-
-*Note: This information was provided during a conversation with Bing on 02/11/2023.*
