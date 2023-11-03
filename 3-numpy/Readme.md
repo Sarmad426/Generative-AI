@@ -48,3 +48,11 @@ NumPy provides a wide range of functions for various mathematical operations, ar
 - **Integration with other libraries:** NumPy integrates well with other popular Python libraries such as Pandas, Matplotlib, and SciPy, providing a powerful ecosystem for scientific computing and data analysis.
 
 NumPy is a fundamental library in the Python scientific computing ecosystem, and its versatility and performance make it an essential tool for any data scientist or researcher working with numerical data.
+
+## Install Numpy with Types
+
+```pip
+!pip install nptyping beartype
+```
+
+`nptyping` and `beartype` are used for static typing in python code.
