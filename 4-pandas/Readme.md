@@ -115,3 +115,9 @@ df.to_csv('output.csv', index=False)
 These are just some of the basic operations you can perform with Pandas. The library offers a wide range of functionality, making it an essential tool for data analysis in Python.
 
 For more detailed information, you can refer to the official [Pandas documentation](https://pandas.pydata.org/docs/).
+
+## Pandera
+
+`pip install pandera`
+
+To install pandera.
