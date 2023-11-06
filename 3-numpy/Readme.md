@@ -57,7 +57,6 @@ NumPy is a fundamental library in the Python scientific computing ecosystem, and
 
 `nptyping` and `beartype` are used for static typing in python code.
 
-
 ### To upgrade for latest versions
 
 ```pip
@@ -65,3 +64,17 @@ pip install nptyping beartype --upgrade --force
 ```
 
 This will upgrade the `beartype` and `nptyping` forcefully.
+
+### Topics Covered
+
+- simple lists
+- Numpy vectors and Matrices
+- Arrays with `nptyping` and `beartype`
+- Arrays operations, finding maximum, mean, minimum, length and number of elements
+- Array operations, Boolean search, arithmetic operations
+- Numpy list operations
+- Numpy 1D list operations
+- Numpy 2D list operations
+- Numpy Multi-dimensional list operations
+- Numpy Random numbers
+- intersection and where functions
