@@ -121,3 +121,12 @@ For more detailed information, you can refer to the official [Pandas documentati
 `pip install pandera`
 
 To install pandera.
+
+## Pandas Topics Covered
+
+- Series
+- Pandera Types
+- list,nested list and dictionary series
+- DataFrames
+- Pandas json format
+- DataFrame Schema
