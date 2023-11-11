@@ -128,5 +128,7 @@ To install pandera.
 - Pandera Types
 - list,nested list and dictionary series
 - DataFrames
-- Pandas json format
+- Pandas read json and html format
 - DataFrame Schema
+- DataFrame Operations
+- Creating csv file using pandas
