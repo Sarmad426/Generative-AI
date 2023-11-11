@@ -164,3 +164,5 @@ To install pandera.
 - Extract two or more columns from DataFrame
   - `dataframe['column1','column2']`
     - pass list into DataFrame
+- Delete Column
+- Apply Arithmetic operations
