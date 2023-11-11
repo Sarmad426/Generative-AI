@@ -151,3 +151,16 @@ To install pandera.
 - describe dataframe
 - 1. `df.info()` # total index, columns names and data type, total fill cells
 - 2. `df.describe()` # mean std, min # statistical properties | apply only numeric columns
+
+## Apply operations on columns
+
+- Extract one column from DataFrame
+  - `dataframe['column']`
+    - add new column to DataFrame
+    - get column with space between columns text `column name`
+  - `dataframe.column`
+    - cannot add column to DataFrame
+    - cannot access column with text space
+- Extract two or more columns from DataFrame
+  - `dataframe['column1','column2']`
+    - pass list into DataFrame
