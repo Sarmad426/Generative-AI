@@ -2,9 +2,25 @@
 
 **Prompt Engineering** is the process of refining prompts that a person can input into a generative artificial intelligence (AI) service to generate text or images. It involves selecting the right words, phrases, symbols, and formats that guide the model in generating high-quality and relevant texts. The goal of prompt engineering is to create effective prompts that can help users achieve their desired outcomes and improve the performance of AI models.
 
+## LLMS
+
+**LLM** stands for Large Language Model. These models are trained using data of different types to produce
+outputs. There are two types of LLMS.
+
+1. Base LLMS
+2. Instruction Tuned LLMS
+
+## Base LLMS
+
+Base LLMS predict next word based on text training data.
+
+## Instruction Tuned LLMS
+
+Follows Instructions.They are safe, helpful and honest. They use **RLHF** Reinforcement Learning with human feedback.
+
 ## Key Concepts
 
-- **Infering**: Deducing or concluding using evidence or reasoning. In AI, inferring is making decisions based on available information or data.
+- **Inferring**: Deducing or concluding using evidence or reasoning. In AI, inferring is making decisions based on available information or data.
 
 - **Summarizing**: Reducing a large amount of text to its essential information. It involves identifying the most important points and presenting them concisely.
 
