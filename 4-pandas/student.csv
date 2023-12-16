@@ -1,6 +1,6 @@
-Student Id,Student Name,Score
-1,10,Sarmad
-2,20,Hammad
-3,30,Akmal
-4,40,Fakhir
-5,50,Mustansar
+,Name,Email,Major
+0,Sarmad,sarmad@gmail.com,BSSE
+1,Hammad,hammad@email.com,BSCS
+2,Akmal,akmal@email.com,BSIT
+3,Khizar,khizar@gmail.com,BSAI
+4,Nawaz,nawaz@gmail.com,BSCS
