@@ -20,15 +20,25 @@ Follows Instructions.They are safe, helpful and honest. They use **RLHF** Reinfo
 
 ## Key Concepts
 
-- **Inferring**: Deducing or concluding using evidence or reasoning. In AI, inferring is making decisions based on available information or data.
+### Inferring
 
-- **Summarizing**: Reducing a large amount of text to its essential information. It involves identifying the most important points and presenting them concisely.
+Deducing or concluding using evidence or reasoning. In AI, inferring is making decisions based on available information or data.
 
-- **Iterative Approach**: A method of solving problems by repeating a cycle of operations until the desired outcome is achieved. In prompt engineering, it involves refining prompts over time to improve accuracy and effectiveness.
+### Summarizing
 
-- **Transforming**: Changing the format or structure of data. In prompt engineering, transforming involves converting prompts into a format compatible with the AI model.
+Reducing a large amount of text to its essential information. It involves identifying the most important points and presenting them concisely.
 
-- **Expanding**: Adding more information or detail to a prompt. In prompt engineering, expanding involves adding more context or specificity to improve accuracy and effectiveness.
+### Iterative Approach
+
+A method of solving problems by repeating a cycle of operations until the desired outcome is achieved. In prompt engineering, it involves refining prompts over time to improve accuracy and effectiveness.
+
+### Transforming
+
+Changing the format or structure of data. In prompt engineering, transforming involves converting prompts into a format compatible with the AI model.
+
+### Expanding
+
+Adding more information or detail to a prompt. In prompt engineering, expanding involves adding more context or specificity to improve accuracy and effectiveness.
 
 ## Best Practices for Software Developers
 
