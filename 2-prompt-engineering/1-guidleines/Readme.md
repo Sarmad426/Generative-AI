@@ -14,7 +14,7 @@
 
 ## Principle 2: Giving the Model Time to Think
 
-### Tactics
+### - Tactics
 
 * Specify the steps to complete a task.
 
