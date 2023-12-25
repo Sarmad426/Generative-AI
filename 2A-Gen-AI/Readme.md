@@ -26,4 +26,4 @@ process. We repeatedly find & fix mistakes.
 
 ## LifeCycle of Generative AI Project
 
-![Alt text](Gen-ai.jpg)
+![Gen Ai Flowchart](Gen-ai.jpg)
