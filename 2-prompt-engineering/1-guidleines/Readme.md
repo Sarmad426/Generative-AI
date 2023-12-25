@@ -4,7 +4,7 @@
 
 ### Tactics
 
-1. Use delimiters: triple quotes (`"""`), triple dashes (`---`), triple backticks (`````), or XML tags.
+1. Use delimiters: triple quotes (`"""`), triple dashes (`---`), triple backticks (``````), or XML tags.
 
 > This avoids prompt injections, and it also makes it easier for the LLM to identify specific content.
 
