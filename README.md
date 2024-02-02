@@ -1,18 +1,14 @@
 # Artificial Intelligence
 
-Artificial Intelligence is the branch of computer science concerned with
-development of methods that allow computers to learn without explicit programming.
+Artificial Intelligence is the branch of computer science concerned with development of methods that allow computers to learn without explicit programming.
 
 ## Machine Learning
 
-Machine Learning is the branch of AI, which focuses on methods, that can
-learn from examples and experience instead of relying on hard-coded rules
-and make predictions on new data.
+Machine Learning is the branch of AI, which focuses on methods, that can learn from examples and experience instead of relying on hard-coded rules and make predictions on new data.
 
 ## Deep Learning
 
-Subfield of Machine Learning that focuses on Neural Networks (inspired from Biological neurons)
-to develop learning models.
+Subfield of Machine Learning that focuses on Neural Networks (inspired from Biological neurons) to develop learning models.
 
 ## Generative AI
 
