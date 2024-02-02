@@ -40,3 +40,7 @@ Here's a tabular representation of the differences between supervised and unsupe
 | Examples              | Classification, regression.                 | Clustering, dimensionality reduction.      |
 | Teacher/Guidance     | "Teacher" provides correct labels during training. | No external guidance or labels provided.   |
 | Use Cases            | Image recognition, spam detection, sentiment analysis. | Customer segmentation, anomaly detection, topic modeling. |
+
+## Reinforcement Learning
+
+In Reinforcement Learning a model learns by the feedback of reward and punishment much like humans do.
