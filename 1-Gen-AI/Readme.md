@@ -1,51 +1,27 @@
-# Large Language Models (LLMs)
+# Generative AI
 
-## Definition and Purpose
+It is a subfield of AI. These are AI systems that create new content, such as images, text or audio. In context of AI these systems are called **Models**. It falls under the category of unsupervised learning.
 
-LLMs are studied under NLP. They are deep learning models, typically based on neural networks, that are trained on massive amounts of text data to understand and generate human language. These models are versatile and find applications in various natural language processing (NLP) tasks, including text generation, language translation, sentiment analysis, and more.
+Generative AI models are trained on extensive datasets, where they learn to recognize patterns and structures present in the training data. These models find applications in diverse areas, including image synthesis, text generation, and music composition.
 
-### Key Characteristics
+## Models
 
-1. **Scale:** LLMs are characterized by their size, often comprising millions to billions of parameters. This scale allows them to capture intricate language patterns.
+- LLM's (Large Language Models)
+- Diffusion Models
 
-2. **Pre-training and Fine-tuning:** LLMs are pre-trained on large text corpora in an unsupervised manner. They can then be fine-tuned for specific tasks, enabling adaptability to various applications.
+### LLM's
 
-3. **Transfer Learning:** LLMs use transfer learning, applying knowledge gained from one task or domain to improve performance on others with minimal task-specific training data.
+LLM's are used for textual data and studied under **NLP** (Natural Language Processing).
 
-4. **Autoregressive Generation:** Many LLMs are autoregressive models, generating text one word or token at a time while considering the context of preceding words.
+**Example:**
 
-### Key Components and Architectures
+- **GPT** (Generative Pretrained Transformer)
 
-- **Transformer Architecture:** LLMs are typically built on the transformer architecture, designed to capture long-range dependencies in text.
+### Diffusion Models
 
-- **Embeddings:** LLMs use word embeddings to convert words or tokens into numerical vectors.
+Diffusion models are used for images specifically and are studied under **Computer Vision**.
 
-- **Attention Mechanisms:** Transformers employ attention mechanisms to weigh the importance of different words in a sentence.
+**Example:**
 
-- **Positional Encoding:** To account for word order in sentences, LLMs use positional encodings to provide information about the position of words within a sequence.
-
-## Applications
-
-LLMs have applications in various domains, including:
-
-- **Text Generation:** Generating human-like text for content creation, chatbots, and creative writing.
-
-- **Language Translation:** Translating text from one language to another.
-
-- **Sentiment Analysis:** Analyzing the sentiment (positive, negative, neutral) in text.
-
-- **Text Summarization:** Creating concise summaries of long documents.
-
-- **Question Answering:** Answering questions based on textual information.
-
-- **Language Modeling:** Improving text completion and suggestion in search engines and keyboards.
-
-- **Information Retrieval:** Enhancing search engine results and document retrieval.
-
-**Prominent LLMs:**
-
-Some well-known Large Language Models include:
-
-- GPT-3 (Generative Pre-trained Transformer 3) OpenAI Chat-gpt 3.5 and 4
-- Bard (Google LLM)
-- Bing AI (Microsoft LLM)
+- **Dall-e-2**
+- **Dall-e-3**
