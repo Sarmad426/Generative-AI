@@ -1,7 +1,9 @@
+# LLM types
 
-# Understanding the Difference Between BLMs and ITLMs
+There are two type of LLM's.
 
-In the realm of natural language processing, two distinct categories of language models have emerged: Based Language Models (BLMs) and Instruction Tuned Language Models (ITLMs). These models serve different purposes and are developed through varying processes. Let's delve into the key differences between BLMs and ITLMs:
+- Base LLM's
+- Instruction Tuned LLM's
 
 ## Based Language Models (BLMs)
 
