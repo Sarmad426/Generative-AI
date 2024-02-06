@@ -2,12 +2,11 @@
 
 Machine Learning (ML) is a subset of artificial intelligence that involves the development of algorithms and models that enable computer systems to learn from data and make predictions or decisions without being explicitly programmed for specific tasks. In essence, machine learning allows computers to improve their performance on a task by learning from experience, making it a critical component of many AI applications.
 
-### Types OF ML
+## Types OF ML
 
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-
 
 ## Supervised Learning
 

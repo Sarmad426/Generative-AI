@@ -17,7 +17,7 @@ LLMs are studied under NLP. They are deep learning models, typically based on ne
 ### Key Components and Architectures
 
 - **Transformer Architecture:** LLMs are typically built on the transformer architecture, designed to capture long-range dependencies in text.
-- 
+
 - **Embeddings:** LLMs use word embeddings to convert words or tokens into numerical vectors.
 
 - **Attention Mechanisms:** Transformers employ attention mechanisms to weigh the importance of different words in a sentence.

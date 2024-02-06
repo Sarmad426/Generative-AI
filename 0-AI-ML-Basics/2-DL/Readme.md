@@ -8,4 +8,4 @@ Neural Networks are systems inspired by human brains that consists of interconne
 
 **Simplified Explanation:**
 
-Neural networks consist of interconnected nodes or **neurons** organized in layers. Each neuron layer takes an input performs a mathematical operation on it and passes the output to the following layer. Whereas the output of every layer is the input to the layer next to it. 
+Neural networks consist of interconnected nodes or **neurons** organized in layers. Each neuron layer takes an input performs a mathematical operation on it and passes the output to the following layer. Whereas the output of every layer is the input to the layer next to it.
