@@ -37,12 +37,6 @@ Using OpenAI's text generation models, you can build applications to:
 %pip install openai
 ```
 
-**Install requirement.txt:**
-
-```pip
-pip install -r requirements.txt
-```
-
 **Install python-dotenv:**
 
 ```pip
