@@ -43,7 +43,7 @@ Using OpenAI's text generation models, you can build applications to:
 %pip install -r requirement.txt
 ```
 
-**Install python-dotenv**
+**Install python-dotenv:**
 
 ```pip
 %pip install python-dotenv
