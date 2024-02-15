@@ -27,14 +27,30 @@ Generative AI models are trained on extensive datasets, where they learn to reco
 3. **OpenAI's GPT-3 (Generative Pre-trained Transformer 3)**
    - Developed by OpenAI, GPT-3 is a language model that leverages deep learning techniques to generate human-like text. It has been applied in various tasks, such as language translation, question answering, and text completion.
 
-4. **Magenta**
-   - A research project initiated by Google, Magenta utilizes machine learning to produce new music and art. It offers a range of tools for music generation, image generation, and audio synthesis.
+## Update Conda to Python 3.12 by creating Virtual Environment
 
-These examples showcase the diversity and potential of generative AI in creating new content across different domains.
+```bash
+conda create -n py_12 python==3.12 -y
+```
 
-*Sources:*
+This will create a virtual Environment.
+`-n` means name of the virtual env.
+`-y` is yes for all installation questions.
 
-1. [GitHub - GoogleCloudPlatform/generative-ai: Sample code and notebooks](https://github.com/GoogleCloudPlatform/generative-ai).
-2. [LABS.GENERATIVEAI - GitHub: Let’s build from here](https://github.com/microsoft/Excel-Labs/blob/main/labs-generative-ai/README.md).
-3. [Generative AI prompt samples | Vertex AI | Google Cloud](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/prompt-samples).
-4. [Google Generative AI – Google AI](https://ai.google/discover/generativeai).
+## Activate Virtual Env
+
+```bash
+conda env list
+```
+
+Check the Available virtual env list.
+
+```bash
+conda activate py_12
+```
+
+Check Python Version
+
+```bash
+python --version
+```
