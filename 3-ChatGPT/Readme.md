@@ -28,3 +28,25 @@ Using OpenAI's text generation models, you can build applications to:
 - Assistants function calling
 - Fine tuning
 - RAG (Retrieval Augmented Generation)
+
+## Install the following packages
+
+**Install OpenAi:**
+
+```pip
+%pip install openai
+```
+
+**Install requirement.txt:**
+
+```pip
+%pip install -r requirement.txt
+```
+
+**Install python-dotenv**
+
+```pip
+%pip install python-dotenv
+```
+
+to load dotenv files in the program.
