@@ -34,9 +34,9 @@ Hugging face is a platform where organization and individuals publish there Mach
 28. zero-shot-object-detection
 29. translation_XX_to_YY
 
-### Usage Example
+## Usage Example
 
-**Sentiment Analysis:**
+## Sentiment Analysis
 
 ```python
 from transformers import pipeline
@@ -67,6 +67,8 @@ response = recognition('Muhammad was going to Makkah.')
 
 print(response)
 ```
+
+where `ner` is for **Name Entity Recognition**.
 
 ## Important Note
 
