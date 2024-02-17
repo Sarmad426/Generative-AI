@@ -20,6 +20,19 @@ Function calling allows you to more reliably get structured data back from the m
 3. Parse the string into JSON in your code, and call your function with the provided arguments if they exist.
 4. Call the model again by appending the function response as a new message, and let the model summarize the results back to the user.
 
+## The basic sequence of steps for function calling is as follows
+
+1. Call the model with the user query and a set of functions defined in the functions parameter.
+2. The model can choose to call one or more functions; if so, the content will be a stringified JSON object adhering to your custom schema (note: the model may hallucinate parameters).
+3. Parse the string into JSON in your code, and call your function with the provided arguments if they exist.
+4. Call the model again by appending the function response as a new message, and let the model summarize the results back to the user.
+
+![Alt text](first.png "function_calling")
+
+![Alt text](second.png "function_calling")
+
+<https://www.linkedin.com/pulse/azure-openai-function-calling-tarun-sharma/>
+
 ## Parallel Function Calling
 
 Parallel function calling is the model's ability to perform multiple function calls together, allowing the effects and results of these function calls to be resolved in parallel. This is especially useful if functions take a long time, and reduces round trips with the API. For example, the model may call functions to get the weather in 3 different locations at the same time, which will result in a message with 3 function calls in the tool_calls array, each with an id. To respond to these function calls, add 3 new messages to the conversation, each containing the result of one function call, with a tool_call_id referencing the id from `tool_calls`.
