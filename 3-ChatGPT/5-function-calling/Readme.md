@@ -27,9 +27,9 @@ Function calling allows you to more reliably get structured data back from the m
 3. Parse the string into JSON in your code, and call your function with the provided arguments if they exist.
 4. Call the model again by appending the function response as a new message, and let the model summarize the results back to the user.
 
-![Alt text](first.png "function_calling")
+![Function calling vs Normal calling](first.png)
 
-![Alt text](second.png "function_calling")
+![Function calling](second.png)
 
 <https://www.linkedin.com/pulse/azure-openai-function-calling-tarun-sharma/>
 
