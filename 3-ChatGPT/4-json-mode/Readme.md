@@ -27,4 +27,6 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
+Note that JSON mode is always enabled when the model is generating arguments as part of [function calling](../5-function-calling/).
+
 Official Docs <https://platform.openai.com/docs/guides/text-generation/json-mode>
