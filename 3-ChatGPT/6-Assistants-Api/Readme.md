@@ -41,6 +41,18 @@ Developers need to spend most of their time stitching tech together, instead of 
 
 - Function calling to execute custom tasks with ease
 
+*According to the official docs:*
+
+The Assistants API allows you to build AI assistants within your own applications. An Assistant has instructions and can leverage models, tools, and knowledge to respond to user queries. The Assistants API currently supports three types of tools:
+
+- Code Interpreter
+- Retrieval
+- Function calling.
+
+In the future, we plan to release more OpenAI-built tools, and allow you to provide your own tools on our platform.
+
 ## Assistants vs Chat Completions API
 
 ![Assistants vs Chat Completion API](assistant-vs-chat-completion-api.png)
+
+Official Documentation <https://platform.openai.com/docs/assistants/overview>
