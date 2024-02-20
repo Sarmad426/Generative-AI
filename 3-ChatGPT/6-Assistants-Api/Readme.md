@@ -51,6 +51,15 @@ The Assistants API allows you to build AI assistants within your own application
 
 In the future, we plan to release more OpenAI-built tools, and allow you to provide your own tools on our platform.
 
+You can explore the capabilities of the Assistants API using the Assistants playground or by building a step-by-step integration outlined in this guide. At a high level, a typical integration of the Assistants API has the following flow:
+
+## Assistants API integration steps
+
+1. Create an Assistant in the API by defining its custom instructions and picking a model. If helpful, enable tools like Code Interpreter, Retrieval, and Function calling.
+2. Create a Thread when a user starts a conversation.
+3. Add Messages to the Thread as the user ask questions.
+4. Run the Assistant on the Thread to trigger responses. This automatically calls the relevant tools.
+
 ## Assistants vs Chat Completions API
 
 ![Assistants vs Chat Completion API](assistant-vs-chat-completion-api.png)
