@@ -29,10 +29,16 @@ Developers need to spend most of their time stitching tech together, instead of 
 
 - Persistent threading for ongoing conversations
   - Being able to save messages & context of the conversation
+
+**Knowledge Retrieval:**
+
 - Retrieval mechanisms for digging through data
   - upload files for the models to use for additional knowledge-base
 - Code Interpreter
   - Write, analyze code...
+
+**Assistants function calling:**
+
 - Function calling to execute custom tasks with ease
 
 ## Assistants vs Chat Completions API
