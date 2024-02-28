@@ -2,17 +2,17 @@
 
 ## Introduction
 
-Structured data refers to data that is organized and formatted in a consistent and predefined manner. It is typically represented in tabular form, with rows representing individual records or observations and columns representing attributes or features. Structured data is commonly found in relational databases, spreadsheets, and CSV files. In the context of data science, structured data plays a crucial role in various analytical tasks, including exploratory data analysis, machine learning, and statistical modeling.
+Structured data refers to data that is organized and formatted in a consistent and predefined manner. It is typically represented in tabular form, with rows representing individual records and columns representing attributes. Structured data is commonly found in relational databases, spreadsheets, and CSV files. In the context of data science, structured data plays a crucial role in various analytical tasks, including exploratory data analysis, machine learning, and statistical modeling.
 
 ## Characteristics of Structured Data
 
-1. **Tabular Format**: Structured data is organized in tables with rows and columns, making it easy to query and analyze.
+1. **Tabular Format**: rows and columns, easy to query and analyze.
 
 2. **Consistency**: Data elements within structured data follow a predefined format and adhere to specific data types, ensuring consistency and uniformity.
 
 3. **Schema**: Structured data often comes with a predefined schema that describes the structure of the data, including the names, types, and constraints of its attributes.
 
-4. **Queryability**: Structured data allows for efficient querying using standard database query languages such as SQL, enabling easy retrieval and manipulation of data.
+4. **Query ability**: Structured data allows for efficient querying using standard database query languages such as SQL, enabling easy retrieval and manipulation of data.
 
 ## Types of Structured Data
 
@@ -20,7 +20,7 @@ Structured data can be further classified into different types based on its char
 
 ### 1. **Numerical Data**
 
-- Numerical data consists of quantitative values that represent measurable quantities. Examples include integers, floats, and percentages.
+integers, floats, and percentages.
 
 ### 2. **Categorical Data**
 
@@ -32,11 +32,11 @@ Structured data can be further classified into different types based on its char
 
 ### 4. **Temporal Data**
 
-- Temporal data represents date and time values, allowing for analysis of trends and patterns over time. Examples include timestamps, dates, and time durations.
+- Temporal data represents date and time values. Examples include timestamps, dates, and time durations.
 
 ### 5. **Boolean Data**
 
-- Boolean data consists of binary values that represent true or false conditions. It is commonly used for binary classification tasks and logical operations.
+- Binary values that represent true or false conditions. It is commonly used for binary classification tasks and logical operations.
 
 ### 6. **Text Data**
 
