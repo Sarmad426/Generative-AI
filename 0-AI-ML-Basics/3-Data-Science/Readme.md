@@ -85,7 +85,7 @@ Acquires and cleans data
 - Data manipulation
 - Visualization
 - Database management
-- Statistical analysis
+- [Statistical analysis](./roles/Readme.md#statistical-analysis)
 
 ### 3. Data Scientist
 
