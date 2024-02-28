@@ -22,7 +22,7 @@ Structured data can be further classified into different types based on its char
 
 integers, floats, and percentages.
 
-### 2. **Categorical Data**
+### 2. **Nominal Data (Categorical)**
 
 - Categorical data represents qualitative variables that belong to a specific category or group. Examples include gender, marital status, and product categories.
 
