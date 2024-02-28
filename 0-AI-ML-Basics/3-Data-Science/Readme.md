@@ -17,7 +17,7 @@ Data Science typically involves the following processes:
 - **Define Objectives**: Clearly define the goals and objectives of the analysis.
 - **Formulate Hypotheses**: Generate hypotheses to guide the analysis process.
 
-### 2. **Data Collection**
+### 2. **Acquire Data**
 
 - **Identify Data Sources**: Determine where relevant data can be sourced from.
 - **Collect Data**: Gather data from various sources such as databases, APIs, or files.
