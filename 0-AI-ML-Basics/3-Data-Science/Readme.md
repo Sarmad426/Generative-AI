@@ -68,3 +68,37 @@ Data Science involves a series of iterative processes aimed at deriving actionab
 ## Data Science Lifecycle diagram
 
 ![Data Science Lifecycle](<Data-Science-Life-cycle.png>)
+
+## Technical Roles
+
+### 1. Data Engineer
+
+Acquires and cleans data
+
+- **ETL** Processes (Extract, Transform, Load)
+- Database Systems
+- Data Warehousing
+- Stream processing
+
+### 2. Data Analyst
+
+- Data manipulation
+- Visualization
+- Database management
+- Statistical analysis
+
+### 3. Data Scientist
+
+- Machine Learning
+- Data Exploration
+- Big data tools
+- Feature Engineering
+
+### 4. Machine Learning Engineer
+
+- Model deployment
+- Cloud platforms
+- Deep Learning
+- Optimization
+
+[Learn roles in detail]()
