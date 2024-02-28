@@ -75,9 +75,9 @@ Data Science involves a series of iterative processes aimed at deriving actionab
 
 Acquires and cleans data
 
-- **ETL** Processes (Extract, Transform, Load)
+- [**ETL** Processes (Extract, Transform, Load)](./roles/Readme.md#etl-process)
 - Database Systems
-- Data Warehousing
+- [Data Warehousing](./roles/Readme.md#data-warehousing)
 - Stream processing
 
 ### 2. Data Analyst
@@ -89,16 +89,16 @@ Acquires and cleans data
 
 ### 3. Data Scientist
 
-- Machine Learning
-- Data Exploration
+- [Machine Learning](../1-ML/)
+- [Data Exploration](./roles/Readme.md#data-exploration)
 - Big data tools
-- Feature Engineering
+- [Feature Engineering](./roles/Readme.md#feature-engineering)
 
 ### 4. Machine Learning Engineer
 
 - Model deployment
 - Cloud platforms
-- Deep Learning
+- [Deep Learning](../2-DL/)
 - Optimization
 
 [Learn roles in detail](./roles/)
