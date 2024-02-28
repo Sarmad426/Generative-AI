@@ -97,7 +97,7 @@ Acquires and cleans data
 ### 4. Machine Learning Engineer
 
 - Model deployment
-- Cloud platforms
+- [Cloud platforms](./roles/Readme.md#cloud-platforms-ml-engineer)
 - [Deep Learning](../2-DL/)
 - Optimization
 
