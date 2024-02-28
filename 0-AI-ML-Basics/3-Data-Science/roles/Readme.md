@@ -44,4 +44,18 @@ The ETL process, standing for Extract, Transform, Load, is a fundamental step in
 
 3. **Load**: After transformation, the processed data is loaded into a target destination such as a database, data warehouse, or data lake. This makes the data ready for analysis, modeling, and visualization.
 
-The ETL process is crucial for preparing data for further analysis and modeling tasks in data science and machine learning projects. It ensures that the data is in a suitable format and quality for deriving meaningful insights and building accurate predictive models.
+## Statistical Analysis
+
+Statistical analysis involves the use of statistical techniques to analyze and interpret data. It aims to uncover patterns, relationships, and insights within a dataset, providing valuable information for decision-making and problem-solving. Key aspects of statistical analysis include:
+
+1. **Descriptive Statistics**: Summarizing and describing the main characteristics of the data using measures such as mean, median, mode, standard deviation, and percentiles.
+
+2. **Inferential Statistics**: Making inferences and drawing conclusions about a population based on a sample of data. This includes hypothesis testing, confidence intervals, and regression analysis.
+
+3. **Exploratory Data Analysis (EDA)**: Investigating the data visually and numerically to identify patterns, trends, and relationships using techniques such as data visualization, correlation analysis, and outlier detection.
+
+4. **Probability Distributions**: Understanding the underlying probability distributions of variables in the data and using them to make predictions and analyze uncertainty.
+
+5. **Statistical Modeling**: Building mathematical models to represent relationships between variables in the data, such as linear regression, logistic regression, and time series analysis.
+
+6. **Experimental Design**: Planning and conducting experiments to collect data in a controlled manner and analyze the effects of different variables on outcomes.
