@@ -1,21 +1,6 @@
 # import module
 import streamlit as st
 
-# Title
-st.title("This is a title")
-
-# Header
-st.header("This is a header")
-
-# Subheader
-st.subheader("This is a subheader")
-
-# Text
-st.text("Hello this is text")
-
-# Markdown
-st.markdown("### This is a markdown")
-
 # success
 st.success("Success")
 
@@ -33,9 +18,6 @@ exp = ZeroDivisionError("Trying to divide by Zero")
 
 st.exception(exp)
 
-# Write text
-st.write("Text with write")
-
 # Writing python inbuilt function range()
 st.write(range(10))
 
@@ -44,7 +26,7 @@ st.write(range(10))
 # import Image from pillow to open images
 from PIL import Image
 
-img = Image.open("streamlit.png")
+img = Image.open("./tiger.png")
 
 # display image using streamlit
 # width is used to set the width of an image
@@ -67,34 +49,32 @@ status = st.radio("Select Gender: ", ("Male", "Female"))
 # conditional statement to print
 # Male if male is selected else print female
 # show the result using the success function
-if status == "Male":
-    st.success("Male")
-else:
-    st.success("Female")
-
+st.success(status)
 
 # Selection box
 
-# first argument takes the title of the selectionbox
+# first argument takes the title of the selection box
 # second argument takes options
-hobby = st.selectbox("Hobbies: ", ["Dancing", "Reading", "Sports"])
+hobby = st.selectbox("Hobbies: ", ["Coding", "Reading", "Sports", "Gardening"])
 
 # print the selected hobby
-st.write("Your hobby is: ", hobby)
+st.write("Your hobby: ", hobby)
 
 
 # multi select box
 
 # first argument takes the box title
 # second argument takes the options to show
-hobbies = st.multiselect("Hobbies: ", ["Dancing", "Reading", "Sports"])
+hobbies = st.multiselect(
+    "Hobbies: ", ["Coding", "Reading", "Sports", "Gardening", "Sleeping"]
+)
 
 # write the selected options
 st.write("You selected", len(hobbies), hobbies, "hobbies")
 
 
 # Create a simple button that does nothing
-st.button("Click me for no reason")
+st.button("Button Example")
 
 
 # Create a button, that when clicked, shows a text
@@ -107,7 +87,7 @@ if st.button("About"):
 # save the input text in the variable 'name'
 # first argument shows the title of the text input box
 # second argument displays a default text inside the text input area
-name = st.text_input("Enter Your name", "Type Here ...")
+name = st.text_input("Enter Your name", "", placeholder="Abdullah")
 
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
