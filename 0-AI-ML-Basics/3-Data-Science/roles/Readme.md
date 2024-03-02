@@ -1,5 +1,37 @@
 # Roles in detail
 
+## Technical Roles
+
+### 1. Data Engineer
+
+Acquires and cleans data
+
+- [**ETL** Processes (Extract, Transform, Load)](#etl-process)
+- Database Systems
+- [Data Warehousing](#data-warehousing)
+- Stream processing
+
+### 2. Data Analyst
+
+- Data manipulation
+- Visualization
+- Database management
+- [Statistical analysis](#statistical-analysis)
+
+### 3. Data Scientist
+
+- [Machine Learning](../../1-ML/)
+- [Data Exploration](#data-exploration)
+- Big data tools
+- [Feature Engineering](#feature-engineering)
+
+### 4. Machine Learning Engineer
+
+- Model deployment
+- [Cloud platforms](#cloud-platforms-ml-engineer)
+- [Deep Learning](../../2-DL/)
+- Optimization
+
 ## Data Warehousing
 
 Data warehousing is the process of collecting, storing, and managing large volumes of data from various sources to support business decision-making. It involves extracting data from different operational systems, transforming it into a consistent format, and loading it into a central repository called a data warehouse. Data warehousing facilitates the integration and analysis of disparate data sources, enabling organizations to derive actionable insights and make informed strategic decisions. Additionally, data warehousing often involves techniques such as data modeling, ETL (Extract, Transform, Load) processes, and querying using online analytical processing (OLAP) tools to facilitate efficient data analysis and reporting.
