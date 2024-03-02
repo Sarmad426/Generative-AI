@@ -43,3 +43,8 @@ Here's a tabular representation of the differences between supervised and unsupe
 ## Reinforcement Learning
 
 In Reinforcement Learning a model learns by the feedback of reward and punishment much like humans do.
+
+Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or punishments based on its actions, and its goal is to maximize the cumulative reward over time.
+
+**Example:**
+An example of reinforcement learning is training a computer program to play a game, such as chess. The program acts as the agent, making moves on the chessboard and receiving rewards based on the outcome of the game (win, lose, or draw). By learning from these rewards, the program can improve its strategy over time and become better at playing chess.
