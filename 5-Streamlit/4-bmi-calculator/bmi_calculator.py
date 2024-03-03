@@ -20,13 +20,21 @@ def suggestions(bmi: int):
         )
 
 
+st.title("BMI Calculator")
+st.text("Happy Fitness! 😃")
+
 weight = st.number_input("Enter your Weight", 0)
 height = st.number_input("Enter your Height", 0)
 
+height *= 0.3048
+
 if weight > 0 and height > 0:
 
+    submit = st.button("Get BMI")
     BMI = weight / (height**2)
-    f"# BMI {BMI}"
-    suggestions(BMI)
+
+    if submit:
+        f"# BMI {BMI}"
+        suggestions(BMI)
 else:
     sys.exit("Invalid Weight and height")
