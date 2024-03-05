@@ -8,7 +8,7 @@ SQLAlchemy is a versatile Python library that simplifies database interactions b
 * A code editor or IDE (e.g., PyCharm, Visual Studio Code)
 * An SQLite database (you can create one using a tool like SQLite Browser or command-line `sqlite3`)
 
-**Installation**
+**Installation:**
 
 Install SQLAlchemy using pip:
 
@@ -16,18 +16,18 @@ Install SQLAlchemy using pip:
 pip install sqlalchemy
 ```
 
-**Creating a Basic Project Structure**
+**Creating a Basic Project Structure:**
 
 Organize your project by creating directories for your application and database:
 
-```
+```yml
 your_project/
   app.py
   database/
     db.py
 ```
 
-**Connecting to the Database**
+**Connecting to the Database:**
 
 1. **Import necessary modules:**
 
@@ -54,7 +54,7 @@ your_project/
 
    The `SessionLocal` object is used to interact with the database throughout your application.
 
-**Creating Models (Defining Data Structures)**
+**Creating Models (Defining Data Structures):**
 
 1. **Import the `declarative_base` class:**
 
@@ -85,7 +85,7 @@ your_project/
    * Each column is represented by a `Column` object, specifying data type, constraints, and other options.
    * The `primary_key` attribute defines the primary key column (if applicable).
 
-**Creating Tables (Schema Migration)**
+**Creating Tables (Schema Migration):**
 
 1. **Import the `metadata` object:**
 
@@ -114,7 +114,7 @@ your_project/
 
    This code snippet is optional if you want to create all tables defined by your models at once.
 
-**Establishing a Database Connection (Using Sessions)**
+**Establishing a Database Connection (Using Sessions):**
 
 1. **Create a database session:**
 
@@ -127,7 +127,7 @@ your_project/
            db.close()
    ```
 
-   - This function creates a session and yields it for use, ensuring proper session management and closing.
+   * This function creates a session and yields it for use, ensuring proper session management and closing.
 
 2. **Import and use the `get_db` function in your application:**
 
@@ -138,17 +138,17 @@ your_project/
        # Database operations using the db object (explained later)
    ```
 
-**CRUD Operations**
+**CRUD Operations:**
 
-**1. Create (Insert)**
+**1. Create (Insert):**
 
-- Create a new object instance:
+* Create a new object instance:
 
 ```python
 user = User(username='alice', email='alice@example.com', password='password123')
 ```
 
-- Add the object to the session and commit:
+* Add the object to the session and commit:
 
 ```python
 with get_db() as db:
