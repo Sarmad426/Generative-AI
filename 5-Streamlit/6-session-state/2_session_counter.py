@@ -1,3 +1,7 @@
+"""
+Streamlit session counter program
+"""
+
 import streamlit as st
 
 st.title("Counter Example")

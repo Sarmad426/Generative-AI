@@ -1,3 +1,7 @@
+"""
+Counter Callbacks
+"""
+
 import streamlit as st
 
 st.title("Counter Example using Callbacks")
@@ -6,6 +10,9 @@ if "count" not in st.session_state:
 
 
 def increment_counter():
+    """
+    Increments the counter by 1
+    """
     st.session_state.count += 1
 
 
