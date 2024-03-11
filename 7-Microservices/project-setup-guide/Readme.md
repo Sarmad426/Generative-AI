@@ -3,7 +3,11 @@
 ## Step 1: Install pipx
 
 - Open your terminal.
-- Install pipx using pip: `python -m pip install --user pipx`
+- Install pipx using pip:
+
+```bash
+ python -m pip install --user pipx
+```
 
 ## Step 2: Ensure pipx's binary directory is in your PATH
 
@@ -38,12 +42,12 @@ poetry --version
 Create a new project with Poetry:
 
 ```bash
-poetry new uit-api-class --name uitclass
+poetry new poetry-class --name poetryclass
 ```
 
 ## Step 7: Navigate to the project folder
 
-Open the subfolder inside the parent folder, in this case `uitclass`.
+Open the subfolder inside the parent folder, in this case `poetryclass`.
 
 ## Step 8: Create a main.py file
 
@@ -94,16 +98,11 @@ def read_item(item_id: int, q: Union[str, None] = None):
 Run the server using Poetry:
 
 ```bash
-poetry run uvicorn uitclass.main:app --host 0.0.0.0 --port 8000
+poetry run uvicorn main:app
 ```
 
 ## Step 13: Open the URLs
 
 Open the following URLs in your browser:
 
-- [http://0.0.0.0:8000/](http://0.0.0.0:8000/)
-- [http://0.0.0.0:8000/docs](http://0.0.0.0:8000/docs)
-- [http://0.0.0.0:8000/openapi.json](http://0.0.0.0:8000/openapi.json)
-or
-
-- [http://localhost:8000](http://localhost:8000)
+- <http://127.0.0.1:8000>
