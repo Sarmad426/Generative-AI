@@ -71,7 +71,23 @@ Optionally, check the packages inside the `pyproject.toml` file.
 
 ## Step 11: Write the hello world code in main.py
 
-You can find the hello world code [here](https://github.com/panaverse/learn-generative-ai/blob/main/05_microservices_all_in_one_platform/10_microservice_helloworld/fastapi-helloworld/fastapi_helloworld/main.py).
+```python
+from typing import Union
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+
+@app.get("/items/{item_id}")
+def read_item(item_id: int, q: Union[str, None] = None):
+    return {"item_id": item_id, "q": q}
+```
 
 ## Step 12: Run the server
 
