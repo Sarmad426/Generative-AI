@@ -56,3 +56,5 @@ Converts spoken language into text.
 ## Speech Synthesis
 
 Converts text to speech.
+
+Learn more at: <https://github.com/Sarmad426/AI>
