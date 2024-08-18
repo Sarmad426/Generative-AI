@@ -20,6 +20,12 @@ pip install streamlit
 streamlit hello
 ```
 
+**Run a streamlit app:**
+
+```bash
+streamlit run file_name.py
+```
+
 > Open <http://localhost:8501>
 
 This starts a basic streamlit app locally.
