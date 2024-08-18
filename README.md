@@ -1,16 +1,4 @@
-# Artificial Intelligence
-
-Artificial Intelligence is the branch of computer science concerned with development of methods that allow computers to learn without explicit programming.
-
-## Machine Learning
-
-Machine Learning is the branch of AI, which focuses on methods, that can learn from examples and experience instead of relying on hard-coded rules and make predictions on new data.
-
-## Deep Learning
-
-Subfield of Machine Learning that focuses on Neural Networks (inspired from Biological neurons) to develop learning models.
-
-## Generative AI
+# Generative AI
 
 **Generative AI** is a subfield of artificial intelligence that focuses on the use of machine learning models to generate new data resembling the patterns in the training data. It falls under the category of unsupervised learning and is particularly valuable for creating novel content such as images, videos, music, and text.
 
@@ -26,6 +14,20 @@ Generative AI models are trained on extensive datasets, where they learn to reco
 
 3. **OpenAI's GPT-3 (Generative Pre-trained Transformer 3)**
    - Developed by OpenAI, GPT-3 is a language model that leverages deep learning techniques to generate human-like text. It has been applied in various tasks, such as language translation, question answering, and text completion.
+
+**This repository contains:**
+
+- Basics of AI
+- Working with Generative AI models, OpenAI Chat Gpt, Hugging Face
+- Prompt Engineering
+- Streamlit
+- FastAPI
+- Microservices architecture
+
+**Upcoming:**
+
+- Langchain
+- RAG llama models
 
 ## Update Conda to Python 3.12 by creating Virtual Environment
 
