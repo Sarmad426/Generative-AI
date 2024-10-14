@@ -4,55 +4,63 @@
 
 Generative AI models are trained on extensive datasets, where they learn to recognize patterns and structures present in the training data. These models find applications in diverse areas, including image synthesis, text generation, and music composition.
 
-## Examples of Generative AI
+## Popular fields of Generative AI
 
-1. **DeepDream**
-   - Developed by Google, DeepDream is a computer vision algorithm that employs a convolutional neural network. Its purpose is to identify and enhance patterns within images. This technology can create captivating and surreal images by amplifying existing patterns in the source images.
+- **NLP**
+- **Computer Vision**
 
-2. **GANs (Generative Adversarial Networks)**
-   - GANs are a specific type of neural network architecture that comprises two networks: a generator network and a discriminator network. The generator network is responsible for creating new data, while the discriminator network aims to distinguish between real and generated data. GANs have versatile applications, including image synthesis, video synthesis, and text generation.
+### NLP
 
-3. **OpenAI's GPT-3 (Generative Pre-trained Transformer 3)**
-   - Developed by OpenAI, GPT-3 is a language model that leverages deep learning techniques to generate human-like text. It has been applied in various tasks, such as language translation, question answering, and text completion.
+Natural Language Processing. Refers to the use of machine learning models to process and analyze large amounts of natural language data. NLP models can be used for a variety of tasks, including text generation, sentiment analysis, and machine translation.
 
-**This repository contains:**
+- OpenAI's ChatGPT
+- Google's Gemini
+- Meta's Llama
 
-- Basics of AI
-- Working with Generative AI models, OpenAI Chat Gpt, Hugging Face
-- Prompt Engineering
-- Streamlit
-- FastAPI
-- Microservices architecture
+are the common examples of NLP models.
 
-**Upcoming:**
+### Computer Vision
 
-- Langchain
-- RAG llama models
+Computer Vision is a field of artificial intelligence that focuses on enabling machines to interpret and understand visual information from the real world. Computer vision models can be used for a variety of tasks, including image classification, object detection, and image generation.
 
-## Update Conda to Python 3.12 by creating Virtual Environment
+- OpenAI's DALL-E
+- NVIDIA's StyleGAN
+- Google's DeepDream
 
-```bash
-conda create -n py_12 python==3.12 -y
-```
+are the common examples of Computer Vision models.
 
-This will create a virtual Environment.
-`-n` means name of the virtual env.
-`-y` is yes for all installation questions.
+## Project Setup
 
-## Activate Virtual Env
+### Activate Virtual Environment
+
+Install all the packages for the repository. First make sure you have activated your virtual environment.
+
+**Create Virtual Environment:**
 
 ```bash
-conda env list
+python -m venv venv
 ```
 
-Check the Available virtual env list.
+**Activate it:**
 
 ```bash
-conda activate py_12
+.\venv\Scripts\activate
 ```
 
-Check Python Version
+**Install Packages:**
 
 ```bash
-python --version
+pip install -r requirements.txt
 ```
+
+### Learning Resources
+
+**Python**. <https://github.com/sarmad426/Python>
+
+**Python Projects**. <https://github.com/Sarmad426/Python-projects>
+
+Learn **DSA** with python. <https://github.com/Sarmad426/DSA-Python>
+
+Back end **API** development using **Fast API**. <https://github.com/Sarmad426/FastAPI>
+
+Learn **AI** and **Data Science**. <https://github.com/Sarmad426/AI>
