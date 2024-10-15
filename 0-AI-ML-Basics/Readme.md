@@ -64,18 +64,18 @@ Machine Learning is the subset of AI that focuses on enabling machines to learn 
 ### Types of Machine Learning
 
 1. Supervised Learning
-2. Unsupervised Learning
-3. Reinforcement Learning
+2. UnSupervised Learning
+3. ReInforcement Learning
 
 #### Supervised Learning
 
 Supervised learning is a type of machine learning that involves training a model on a labeled dataset. The model learns to map input data to the correct output based on the labels provided in the training data. Supervised learning is used for tasks such as classification and regression, where the goal is to predict a label or value based on input data.
 
-#### Unsupervised Learning
+#### UnSupervised Learning
 
 Unsupervised learning is a type of machine learning that involves training a model on an unlabeled dataset. The model learns to identify patterns and relationships in the data without explicit guidance. Unsupervised learning is used for tasks such as clustering and dimensionality reduction, where the goal is to discover hidden structures in the data.
 
-#### Reinforcement Learning
+#### ReInforcement Learning
 
 Reinforcement learning is a type of machine learning that involves training an agent to interact with an environment and learn from feedback in the form of rewards or penalties. The agent learns to take actions that maximize the cumulative reward over time. Reinforcement learning is used for tasks such as game playing and robotic control, where the goal is to learn a policy that guides the agent's behavior.
 
@@ -89,7 +89,7 @@ Neural networks are a type of deep learning model inspired by the structure of t
 
 ### Convolutional Neural Networks (CNNs)
 
-Convolutional neural networks are a type of neural network designed for processing grid-like data, such as images and videos. CNNs use convolutional layers to extract features from the input data and pooling layers to reduce the dimensionality of the features. CNNs have been highly successful in tasks such as image recognition and object detection.
+A **Convolutional Neural Network (CNN)** is a deep learning model widely used in **computer vision** tasks like image classification, object detection, and segmentation. It automatically learns spatial features through convolutional layers, which detect patterns such as edges and textures in images. Pooling layers reduce the dimensionality, while fully connected layers help classify the learned features. CNNs are highly effective in tasks requiring image analysis, such as facial recognition and medical imaging.
 
 ### Recurrent Neural Networks (RNNs)
 
@@ -97,10 +97,14 @@ Recurrent neural networks are a type of neural network designed for processing s
 
 ### Generative Adversarial Networks (GANs)
 
-Generative adversarial networks are a type of deep learning model that consists of two neural networks: a generator and a discriminator. The generator learns to generate new data samples that are indistinguishable from real data, while the discriminator learns to distinguish between real and generated data. GANs have been used for tasks such as image generation and style transfer.
+Generative adversarial networks are a type of deep learning model that consists of two neural networks: a **generator** and a **discriminator**. The generator learns to generate new data samples that are indistinguishable from real data, while the discriminator learns to distinguish between real and generated data. GANs have been used for tasks such as image generation and style transfer.
 
 ### Autoencoders
 
-Autoencoders are a type of neural network designed for learning efficient representations of data. An autoencoder consists of an encoder that maps the input data to a lower-dimensional representation and a decoder that reconstructs the input data from the representation. Autoencoders have been used for tasks such as data compression and denoising.
+**Autoencoders** are a type of neural network used for **unsupervised learning** tasks like data compression and noise reduction. They consist of an encoder that reduces input data to a compressed, lower-dimensional representation and a decoder that reconstructs the original data from this compressed form. The network is trained to minimize the difference between the input and reconstructed output. Autoencoders are useful in applications like image denoising, dimensionality reduction, and anomaly detection.
+
+## Transformers
+
+**Transformers** are a neural network architecture primarily used in **natural language processing (NLP)** tasks, designed to handle sequential data while addressing limitations of previous models like RNNs. They use a mechanism called **self-attention**, which allows the model to weigh the importance of different words or tokens in a sequence, regardless of their position. Transformers are the foundation for models like GPT and BERT, excelling in tasks such as text translation, summarization, and language generation. Their ability to process entire sequences in parallel makes them highly efficient and scalable.
 
 Learn more at: <https://github.com/Sarmad426/AI>
