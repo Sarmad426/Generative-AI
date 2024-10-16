@@ -6,24 +6,22 @@
 
 ### Activate Virtual Environment
 
-Install all the packages for the repository. First make sure you have activated your virtual environment.
-
-**Create Virtual Environment:**
+Install all the packages for the repository. This Repo uses poetry as package manager. To install poetry run the following command.
 
 ```bash
-python -m venv venv
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-**Activate it:**
+**Create and activate Virtual Environment:**
 
 ```bash
-.\venv\Scripts\activate
+poetry shell
 ```
 
 **Install Packages:**
 
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
 ## Upcoming Projects
