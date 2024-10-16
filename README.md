@@ -1,33 +1,6 @@
 # Generative AI
 
-**Generative AI** is a subfield of artificial intelligence that focuses on the use of machine learning models to generate new data resembling the patterns in the training data. It falls under the category of unsupervised learning and is particularly valuable for creating novel content such as images, videos, music, and text.
-
-Generative AI models are trained on extensive datasets, where they learn to recognize patterns and structures present in the training data. These models find applications in diverse areas, including image synthesis, text generation, and music composition.
-
-## Popular fields of Generative AI
-
-- **NLP**
-- **Computer Vision**
-
-### NLP
-
-Natural Language Processing. Refers to the use of machine learning models to process and analyze large amounts of natural language data. NLP models can be used for a variety of tasks, including text generation, sentiment analysis, and machine translation.
-
-- OpenAI's ChatGPT
-- Google's Gemini
-- Meta's Llama
-
-are the common examples of NLP models.
-
-### Computer Vision
-
-Computer Vision is a field of artificial intelligence that focuses on enabling machines to interpret and understand visual information from the real world. Computer vision models can be used for a variety of tasks, including image classification, object detection, and image generation.
-
-- OpenAI's DALL-E
-- NVIDIA's StyleGAN
-- Google's DeepDream
-
-are the common examples of Computer Vision models.
+**Generative AI** is a subfield of artificial intelligence that focuses on generating new content based on the training data. [Read more](./1-Gen-AI/)
 
 ## Project Setup
 
@@ -52,6 +25,12 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
+
+## Upcoming Projects
+
+- Langchain
+- Fine Tuning LLMs
+- RAG
 
 ### Learning Resources
 
