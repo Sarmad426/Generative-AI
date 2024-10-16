@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "generative-ai"
+version = "0.1.0"
+description = ""
+authors = ["Sarmad rafique <sarmadrafique040@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+pandera = "^0.20.4"
+streamlit = "^1.39.0"
+black = { extras = ["jupyter"], version = "^24.10.0" }
+jupyter = "^1.1.1"
+notebook = "^7.2.2"
+ipykernel = "^6.29.5"
+jupyterlab = "^4.2.5"
+openai = "^1.51.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
