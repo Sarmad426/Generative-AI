@@ -45,9 +45,10 @@ Deals with images and videos.
 Short for **Natural Language Processing.** It focuses on language, enabling computers to comprehend analyze and generate human language.
 **LLM's** are studied under NLP.
 
-- ChatGPT
-- Bard
+- OpenAI's ChatGPT
+- Google's Gemini
 - Bing AI
+- Meta's Llama
 
 ## Speech Recognition
 
@@ -67,15 +68,15 @@ Machine Learning is the subset of AI that focuses on enabling machines to learn 
 2. UnSupervised Learning
 3. ReInforcement Learning
 
-#### Supervised Learning
+#### 1. Supervised Learning
 
 Supervised learning is a type of machine learning that involves training a model on a labeled dataset. The model learns to map input data to the correct output based on the labels provided in the training data. Supervised learning is used for tasks such as classification and regression, where the goal is to predict a label or value based on input data.
 
-#### UnSupervised Learning
+#### 2. UnSupervised Learning
 
 Unsupervised learning is a type of machine learning that involves training a model on an unlabeled dataset. The model learns to identify patterns and relationships in the data without explicit guidance. Unsupervised learning is used for tasks such as clustering and dimensionality reduction, where the goal is to discover hidden structures in the data.
 
-#### ReInforcement Learning
+#### 3. ReInforcement Learning
 
 Reinforcement learning is a type of machine learning that involves training an agent to interact with an environment and learn from feedback in the form of rewards or penalties. The agent learns to take actions that maximize the cumulative reward over time. Reinforcement learning is used for tasks such as game playing and robotic control, where the goal is to learn a policy that guides the agent's behavior.
 
