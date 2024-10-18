@@ -19,6 +19,7 @@ ipykernel = "^6.29.5"
 jupyterlab = "^4.2.5"
 openai = "^1.51.2"
 python-dotenv = "^1.0.1"
+transformers = "^4.45.2"
 
 
 [build-system]
