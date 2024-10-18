@@ -36,7 +36,7 @@ Hugging face is a platform where organization and individuals publish there Mach
 
 ## Usage Example
 
-## Sentiment Analysis
+### Sentiment Analysis
 
 ```python
 from transformers import pipeline
@@ -48,15 +48,15 @@ response = sentiment('I bought a laptop from your organization but it was not wo
 print(response)
 ```
 
-## Pipeline
+### Pipeline
 
 A pipeline refers to a sequence of data processing components that are connected in a linear manner . The output of one component serves as the input for the next component . These components can include data preprocessing, feature extraction, model training, and model evaluation . By organizing the different tasks into a pipeline, data scientists can easily experiment with different combinations of components
 
-## Name Entity Recognition
+### Name Entity Recognition
 
 NLP task, involves identifying and classifying named entities in text into predefined categories such as person names, organizations, locations, dates and more.
 
-### Code Example
+#### Code Example
 
 ```python
 from transformers import pipeline
@@ -72,12 +72,12 @@ where `ner` is for **Name Entity Recognition**.
 
 ## Important Note
 
-Working with hugging face requires lot of computational power and resources. It is recommended to use [Google Colab](https://colab.google/). It is a powerful jupyter environment that covers all the essential requirements. Jupyter files in this environment are added into the repository but was implemented at Colab.
+Working with hugging face requires lot of computational power and resources. It is recommended to use [Google Colab](https://colab.google/). It is a powerful jupyter environment which has all the essential requirements. Jupyter files in this environment are added into the repository but was implemented at Colab.
 
 Other reason to work on colab is that whenever a hugging face model is used it gets download and consumes a lot of memory, so for fast response use the Google Colab.
 
 ## Installations
 
-```pip
-!pip install transformers
+```bash
+pip install transformers
 ```
