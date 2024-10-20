@@ -27,6 +27,10 @@ poetry install
 ## Upcoming Projects
 
 - Langchain
+- LangGraph
+- LangSmith
+- Gemini API's
+- AI agents
 - Fine Tuning LLMs
 - RAG
 
