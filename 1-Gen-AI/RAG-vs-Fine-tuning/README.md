@@ -32,31 +32,6 @@ RAG combines the strengths of both retrieval-based methods and generative models
 - **Customer Support Chatbots:** A chatbot that retrieves specific knowledge from a company’s support database to answer customer queries.
 - **Search-Augmented Content Generation:** A system that generates content based on relevant articles from a vast document repository or knowledge graph.
 
-### **Code Example:**
-
-Using Hugging Face's `RAG` for text generation:
-
-```python
-from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration
-
-# Load pre-trained tokenizer, retriever, and model
-tokenizer = RagTokenizer.from_pretrained("facebook/rag-token-base")
-retriever = RagRetriever.from_pretrained("facebook/rag-token-base", index_name="custom")
-model = RagTokenForGeneration.from_pretrained("facebook/rag-token-base", retriever=retriever)
-
-# Input query
-input_text = "Tell me about the capital of France."
-input_ids = tokenizer(input_text, return_tensors="pt").input_ids
-
-# Generate response using RAG
-generated = model.generate(input_ids)
-response = tokenizer.decode(generated[0], skip_special_tokens=True)
-
-print(response)
-```
-
----
-
 ## 2. **Fine-tuning LLM**
 
 ### Overview
@@ -84,46 +59,6 @@ Fine-tuning refers to taking a pretrained LLM and training it further on a small
 
 - **Medical Text Generation:** Fine-tuning a model on a corpus of medical journals to generate responses for medical questions.
 - **Legal Document Summarization:** Fine-tuning an LLM on legal case studies for legal summarization tasks.
-
-### Code Example
-
-Using Hugging Face’s `transformers` library to fine-tune GPT-2:
-
-```python
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
-
-# Load pre-trained model and tokenizer
-model = GPT2LMHeadModel.from_pretrained("gpt2")
-tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-
-# Define the dataset for fine-tuning (assuming you have it ready)
-train_dataset = ...  # Your specific dataset
-
-# Define training arguments
-training_args = TrainingArguments(
-    output_dir="./results",
-    overwrite_output_dir=True,
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
-    save_steps=10_000,
-    save_total_limit=2,
-)
-
-# Initialize the trainer with the model, arguments, and dataset
-trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=train_dataset,
-)
-
-# Fine-tune the model
-trainer.train()
-
-# Save the fine-tuned model
-trainer.save_model("./fine_tuned_model")
-```
-
----
 
 ## 3. **Comparison**
 
