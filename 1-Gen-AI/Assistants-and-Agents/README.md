@@ -34,3 +34,11 @@ Here is a table that summarizes the key differences between React and RAG system
 | Architecture | Combines reasoning and acting components | Uses a large language model and a knowledge base |
 | Capabilities | Can be used for a wider range of tasks | Often used for question answering and summarization |
 | Flexibility | More flexible | Less flexible |
+
+## LLMs -> Compound AI systems -> AI agents
+
+**Compound AI systems** represent a significant shift in the way we approach AI development. Instead of relying on a single, monolithic model, these systems combine multiple AI models, tools, and techniques to create more robust, flexible, and efficient solutions to complex problems.
+
+Compound AI systems are an emerging trend in artificial intelligence that involve integrating multiple AI components to tackle complex tasks more effectively. Unlike traditional AI models that rely on a single model, compound AI systems combine various models, retrievers, databases, and external tools to enhance performance, flexibility, and robustness¹².
+
+![LLMs to Compound AI systems to Ai agents](llm_cais_agent.png)
