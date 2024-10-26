@@ -20,6 +20,8 @@ BLMs are the foundational models upon which various natural language processing 
 
 ITLMs are a specialized type of BLMs that undergo a fine-tuning process tailored to a specific task. During fine-tuning, these models are provided with explicit instructions to follow, enabling them to generate output in line with those instructions. The fine-tuning process is supervised, as it involves training the model with specific examples of inputs and desired outputs for the given task.
 
+**Custom GPTs** of ChatGPT are the example of ITMLs.
+
 **Characteristics of ITLMs:**
 
 - Fine-tuned on a specific task with explicit instructions.
@@ -49,10 +51,3 @@ In summary, BLMs are versatile models trained on a wide range of text data, suit
 | Can be used for a wide range of tasks | Designed to perform a specific task |
 
 These distinctions are crucial in understanding how language models are harnessed for different applications in natural language processing.
-
-*Sources:*
-
-1. [Large Language Models and the Future of Custom, Fine-tuned LLMs](https://outerbounds.com/blog/custom-llm-tuning/).
-2. [Instruction Tuning of Large Language Models](https://self-supervised.cs.jhu.edu/sp2023/files/Instruction%20tuning%20of%20LLMs%20-%20Talk@JHU.pdf).
-3. [Table-GPT: Empower LLMs To Understand Tables - Medium](https://medium.com/@aipapers/table-gpt-empower-llms-to-understand-tables-9b60a3df1eae).
-4. [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792).

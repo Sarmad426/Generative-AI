@@ -4,7 +4,7 @@ Diffusion models are the generative ai models that are studied under [Computer V
 
 ## How Diffusion Model Works?
 
-Diffusion models add noise to image, and then a trained algorithm removes that noise from the image and gives back the original image. These models are very expensive as they require lot of computational power and extra-ordinary resources.
+Diffusion models add noise to image, and then a trained algorithm removes that noise from the image and gives back the original image. These models are very expensive as they require a lot of computational power and extra-ordinary resources.
 
 **Forward Diffusion:**
 Compressing the image in latent representation.
