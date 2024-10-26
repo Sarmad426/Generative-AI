@@ -18,7 +18,7 @@
 
 ### Principle 1: Write Clear and Specific instructions
 
-#### Tactics
+**Tactics:**
 
 1. Use delimiters: triple quotes (`"""`), triple dashes (`---`), triple backticks (``````), or XML tags.
 
@@ -30,7 +30,7 @@
 
 ## Principle 2: Giving the Model Time to Think
 
-#### Tactics
+**Tactics:**
 
 - Specify the steps to complete a task.
 
