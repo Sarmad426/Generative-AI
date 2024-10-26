@@ -14,13 +14,13 @@ process. We repeatedly find & fix mistakes.
 
 ### RAG (Retrieval Augmented Generation)
 
-> Give LLM access to external data source.
+> Give LLM access to external data source. [Learn more](../RAG-vs-Fine-tuning/README.md#rag-retrieval-augmented-generation-vs-fine-tuning-llm)
 
 ### Fine Tune Models
 
-> Adapt LLM to Your Task
+> Adapt LLM to Your Task. [Learn more](../RAG-vs-Fine-tuning/README.md#2-fine-tuning-llm)
 
-### Pretrain Models
+### Pre-train Models
 
 > Train LLM from scratch.
 

@@ -1,4 +1,4 @@
-# OpenAI
+# OpenAI ChatGPT
 
 OpenAI's text generation models (often called generative pre-trained transformers or large language models) have been trained to understand natural language, code, and images. The models provide text outputs in response to their inputs. The inputs to these models are also referred to as "prompts". Designing a prompt is essentially how you “program” a large language model model, usually by providing instructions or some examples of how to successfully complete a task.
 
@@ -15,7 +15,7 @@ Using OpenAI's text generation models, you can build applications to:
 
 ## ChatGPT
 
-**ChatGPT** is a powerful [LLM](../1-Gen-AI/1-Models/LLMS/Readme.md) of [OpenAI](https://openai.com).
+**ChatGPT** is a powerful [LLM](../1-Gen-AI/1-Models/LLMS/Readme.md) of OpenAI.
 
 ### Topics
 
