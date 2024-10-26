@@ -35,12 +35,6 @@ Diffusion models are used for images specifically and are studied under **Comput
 - **Dall-e-2**
 - **Dall-e-3**
 
-## Difference between Multi-models and Foundational models
-
-### 1. Foundational Models
-
-**Foundational models** are large-scale artificial intelligence models trained on massive amounts of data. They are designed to be versatile and can be adapted to perform a wide range of tasks, such as **language translation**, **text generation**, and **image recognition**. These models are the foundation for many modern AI applications and have significantly advanced the capabilities of generative AI.
-
-### 2. Multi-modal Models
+### Multi-modal Models
 
 **Multi-modal models** are AI models that can process and understand multiple types of data simultaneously. This includes text, images, audio, and video. They are capable of integrating information from different modalities to perform complex tasks like **image captioning**, **video understanding**, and **question answering**.
