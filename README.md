@@ -12,6 +12,8 @@ Install all the packages for the repository. This Repo uses poetry as package ma
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
+If you are on *Windows* change `python3` to just `python`.
+
 **Install Packages:**
 
 ```bash
