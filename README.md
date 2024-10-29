@@ -24,6 +24,14 @@ poetry shell
 poetry install
 ```
 
+**Potential LLMs:**
+
+- ChatGPT
+- Llama
+- Hugging Face Transformers (Open source LLMs)
+- Gemini
+- ...
+
 ## Upcoming Projects
 
 - Langchain
@@ -33,8 +41,9 @@ poetry install
 - AI agents
 - Fine Tuning LLMs
 - RAG
+- ...
 
-### Learning Resources
+### More Repositories
 
 **Python**. <https://github.com/sarmad426/Python>
 
