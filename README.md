@@ -12,19 +12,23 @@ Install all the packages for the repository. This Repo uses poetry as package ma
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-**Create and activate Virtual Environment:**
-
-```bash
-poetry shell
-```
-
 **Install Packages:**
 
 ```bash
 poetry install
 ```
 
-**Potential LLMs:**
+This command will install all the packages listed in `pyproject.toml` file. It will also create a *Virtual environment* if it does not exist.
+
+**Activate Virtual Environment:**
+
+```bash
+poetry shell
+```
+
+## Repo Structure
+
+**Potential LLMs for this Repo:**
 
 - ChatGPT
 - Llama
