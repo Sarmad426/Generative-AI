@@ -1,4 +1,4 @@
-# AI Assistants vs. AI Agents
+# AI Assistants vs AI Agents
 
 ## Assistants
 
